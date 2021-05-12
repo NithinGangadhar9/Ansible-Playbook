@@ -1,6 +1,6 @@
 - 
   name: Ping Test for all the Hosts
-  Hosts: all
+  hosts: all
   tasks: 
     - name: Ping Test
       ping: 
